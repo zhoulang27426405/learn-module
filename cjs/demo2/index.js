@@ -1,4 +1,4 @@
-var example = require('./example.js')
+let example = require('./example.js')
 
 require('./example.js')
 require('./example.js').message = 'hello'
