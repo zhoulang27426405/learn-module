@@ -1,8 +1,10 @@
+let example2 = require2('./example2.js')
 let counter = 3
 function incCounter() {
   counter++
 }
-module.exports = {
+console.log(example2)
+module2.exports = {
   counter: counter,
   incCounter: incCounter
 }
