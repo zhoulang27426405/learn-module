@@ -1,0 +1,24 @@
+{
+  "name": "learn-module",
+  "version": "1.0.0",
+  "description": "learn module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo1": "node cjs/demo1/index.js",
+    "demo2": "node cjs/demo2/index.js",
+    "demo3": "node cjs/demo3/index.js",
+    "demo4": "node cjs/demo4/main.js",
+    "demo5": "node cjs/demo5/module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoulang27426405/learn-module.git"
+  },
+  "author": "zhoulang@zhuanzhuan.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoulang27426405/learn-module/issues"
+  },
+  "homepage": "https://github.com/zhoulang27426405/learn-module#readme"
+}
