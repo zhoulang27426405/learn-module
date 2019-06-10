@@ -5,3 +5,5 @@
 - 执行 `npm run demo3`，了解commonjs按值传递特性
 - 执行 `npm run demo4`，了解commonjs的循环依赖
 - 执行 `npm run demo5`，了解commonjs的require流程
+## esm
+- 执行 `npm run demo6`，使用es6模块
