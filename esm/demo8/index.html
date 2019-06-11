@@ -13,7 +13,7 @@
       say()
       console.log("==========按需加载============")
     })
-  }, 200)
+  }, 1000)
 
   // 条件加载
   const condition = true
@@ -32,14 +32,12 @@
   }
 
   // 动态模块路径
-  const moduleName = 'B'
+  const moduleName = 'A'
   import(`./module${moduleName}.js`).then(function({ say }) {
     console.log("==========动态模块路径============")
     say()
     console.log("==========动态模块路径===========")
   })
-
-
 </script>
 </script>
 </body>
