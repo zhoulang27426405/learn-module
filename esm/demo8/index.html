@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+</head>
+<body>
+<script type="module">
+  // 按需加载
+  setTimeout(function() {
+    import('./moduleA.js').then(function({ say }) {
+      console.log("==========按需加载============")
+      say()
+      console.log("==========按需加载============")
+    })
+  }, 200)
+
+  // 条件加载
+  const condition = true
+  if (condition) {
+    import('./moduleA.js').then(function({ say }) {
+      console.log("==========条件加载A============")
+      say()
+      console.log("==========条件加载A============")
+    })
+  } else {
+    import('./moduleB.js').then(function({ say }) {
+      console.log("==========条件加载B============")
+      say()
+      console.log("==========条件加载B============")
+    })
+  }
+
+  // 动态模块路径
+  const moduleName = 'B'
+  import(`./module${moduleName}.js`).then(function({ say }) {
+    console.log("==========动态模块路径============")
+    say()
+    console.log("==========动态模块路径===========")
+  })
+
+
+</script>
+</script>
+</body>
+</html>
