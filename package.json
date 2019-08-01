@@ -9,6 +9,7 @@
     "demo2": "node cjs/demo2/index.js",
     "demo3": "node cjs/demo3/index.js",
     "demo4": "node cjs/demo4/main.js",
+    "demo11": "node cjs/demo11/index.js",
     "demo5": "node cjs/demo5/module.js"
   },
   "repository": {
